@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Poppins:ital,wght@1,300&display=swap');
+
+
+
+
+body{
+ 
+background-color: #14288A;
+text-decoration: none;
+}
+
+h1{
+  font-family: 'Cardo', serif;
+font-size: xx-large;
+}
+
+h2{
+  font-family: 'Cardo', serif;
+  text-align: center;
+}
+
+.car {
+margin: auto  40px;
+}
+
+
+
+img{
+margin-left : 60px;
+max-height : 550PX;
+width : auto;
+border-radius: 24px;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+ 
+
+img:hover{
+transform: scale(1.05);
+border-radius: 24px;
+cursor: pointer;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.download-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .download-icon {
+  opacity: 1;
+}
+
